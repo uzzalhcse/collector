@@ -1,0 +1,24 @@
+{
+    "name": "phpukg/collector",
+    "description": "make use of reusable code by copying and pasting classes from one project to another",
+    "authors": [
+        {
+            "name": "Php package",
+            "email": "phpukg@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "PhpUkg\\Collector\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PhpUkg\\Collector\\CollectorServiceProvider"
+            ]
+        }
+    },
+    "require": {}
+}
